@@ -1,0 +1,7 @@
+DataType,Model_Name,best_params,best_score
+Imbalanced,LR,"{'C': 0.1, 'penalty': 'l2', 'solver': 'liblinear'}",0.9834955849488825
+Imbalanced,KNN,"{'metric': 'euclidean', 'n_neighbors': 3, 'weights': 'uniform'}",0.999531008380883
+Imbalanced,SVM,"{'C': 50, 'gamma': 'scale', 'kernel': 'rbf'}",0.9563124759500824
+Imbalanced,DT,"{'criterion': 'entropy', 'max_depth': 5, 'min_samples_leaf': 100, 'min_samples_split': 50}",0.9669711884482901
+Imbalanced,RF,"{'max_depth': 5, 'max_features': 'sqrt', 'min_samples_leaf': 100, 'min_samples_split': 100, 'n_estimators': 200}",0.9715750664509292
+Imbalanced,XGB,"{'learning_rate': 0.1, 'n_estimators': 100, 'subsample': 0.3}",0.9824820049615666
